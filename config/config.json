@@ -1,0 +1,21 @@
+{
+  "development": {
+    "url": "postgres://cclucfej:Sl9I3GKnW3EeIRFGWxNohvbgi5ykYDV4@lucky.db.elephantsql.com/cclucfej",
+
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
